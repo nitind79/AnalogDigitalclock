@@ -1,0 +1,46 @@
+/* Layout */
+.main {
+    display: flex;
+    padding: 2em;
+    height: 90vh;
+    justify-content: center;
+    align-items: middle;
+}
+
+.digital_clockbox,
+#digital_clock {
+    width: 100%;
+}
+body
+{
+	/*background-color:#1C1C1C;*/
+	text-align:center;
+	font-family:helvetica;
+}
+h1
+{
+	margin:0px;
+	margin-top:40px;
+	color:#8181F7;
+	font-size:45px;
+}
+#time
+{
+	margin-top:20px;
+	font-size:130px;
+	color:black;
+	/*border:2px dashed #2E9AFE;*/
+	padding:10px;
+	width:700px;
+	margin-left:150px;
+}
+#date
+{
+	margin-top:70px;
+	color:black;
+	font-size:40px;
+	/*border:2px dashed #2E9AFE;*/
+	padding:10px;
+	width:500px;
+	margin-left:250px;
+}

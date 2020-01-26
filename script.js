@@ -23,4 +23,20 @@ function run_the_clock(){
 
 var interval = setInterval(run_the_clock, 1000);
 
+//document.getElementsById("togglebtn").addEventListner("onclick", togglebtnfunction);
+//document.getElementById("togglebtn").ontoggle=function() {togglebtnfunction()};
+var tglbtn = document.getElementById("togglebtn");
+tglbtn.onclick=function() {togglebtnfunction()};
+function togglebtnfunction() 
+{
+    if(tglbtn.checked == true)
+    {
+        location.href = 'digital_clock.html';
+    }        
+    else
+    {
+        location.href = 'index.html';
+    }
+    //alert("The ontoggle event occured.");
+}
 
